@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* HEADER */
+
+header {
+  text-align: center;
+  min-height: 50vh;
+  background: url("images/noel-bg.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  background: rgba(0, 0, 0, 0.25);
+  padding: 20px 40px;
+  color: #f1f1f1;
+  font-size: 7rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+@media (max-width: 950px) {
+  h1 {
+    font-size: 4rem;
+    padding: 10px 20px;
+  }
+}
+@media (max-width: 400px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+/* GLOBAL */
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 75px 20px 15px;
+}
+
+/* SECTION INTRO */
+
+.intro {
+  display: flex;
+}
+
+.intro-content {
+  width: 50%;
+  padding: 2rem;
+}
+
+.intro-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.intro-image img {
+  width: 100%;
+}
+
+@media (max-width: 850px) {
+  .intro {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .intro-content {
+    width: 100%;
+    padding: 0;
+  }
+  .intro-text {
+    font-size: 1.5rem;
+  }
+}
+
+/* SECTION ARTICLE */
+
+.article p {
+  font-size: 1.2rem;
+}
+
+/* SECTION GIFTS */
+
+.gifts img {
+  width: 100%;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
