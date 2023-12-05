@@ -14,7 +14,7 @@ body {
 header {
   text-align: center;
   min-height: 50vh;
-  background: url("images/noel-bg.jpg");
+  background: url("images/noel-chien-bg.jpg");
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -83,6 +83,7 @@ section {
 
 .intro-image img {
   width: 100%;
+  border-radius: 50%;
 }
 
 @media (max-width: 850px) {
