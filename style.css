@@ -2,8 +2,11 @@
   box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&family=Roboto&display=swap');
+
 body {
   margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* HEADER */
@@ -23,10 +26,14 @@ h1 {
   padding: 20px 40px;
   color: #f1f1f1;
   font-size: 7rem;
+  font-family: 'Mountains of Christmas', serif;
+  font-weight: 700;
 }
 
 h2 {
   font-size: 3rem;
+  font-family: 'Mountains of Christmas', serif;
+  font-weight: 400;
 }
 
 @media (max-width: 950px) {
