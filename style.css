@@ -11,7 +11,7 @@ body {
 header {
   text-align: center;
   min-height: 50vh;
-  background: url("images/noel-chien-bg.jpg");
+  background: url("images/noel-chien-bg.jpg") bottom fixed;
   background-size: cover;
   display: flex;
   justify-content: center;
