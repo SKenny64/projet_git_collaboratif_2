@@ -99,6 +99,33 @@ section {
   font-size: 1.2rem;
 }
 
+.article{
+  position: relative;
+}
+.coin1{
+  border-top: solid 5px;
+  border-image : linear-gradient(45deg, black, red) 1 ;
+  border-left: solid 5px;
+  width: 100px;
+  height: 100px;
+  top: 10px;
+  left: -10px;
+  position: absolute;
+  z-index: -1;
+}
+
+.coin2{
+  border-right:  solid 5px;
+  border-bottom: solid 5px;
+  border-image : linear-gradient(240deg, red, black) 1 ;
+  width: 100px;
+  height: 100px;
+  bottom: 10px;
+  right: -10px;
+  position: absolute;
+  z-index: -1;
+}
+
 /* SECTION GIFTS */
 
 .gifts img {
